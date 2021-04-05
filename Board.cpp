@@ -54,7 +54,8 @@ namespace ariel{
     }
 //Function for displaying the board
     void Board::show(){
-        unsigned int col,i=0;
+        unsigned int col=0;
+        unsigned int i=0;
         for(auto elem : msg_board){  // An iterator that goes over the locations of the board
             
            // First condition for passing on the first element
